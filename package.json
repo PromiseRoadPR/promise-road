@@ -1,0 +1,21 @@
+{
+  "name": "promise-road-backend",
+  "version": "1.0.0",
+  "description": "Backend API for Promise Road Christian content creation platform",
+  "main": "dist/index.js",
+  "scripts": {
+    "start": "node dist/index.js",
+    "dev": "ts-node src/index.ts",
+    "build": "tsc",
+    "watch": "tsc -w"
+  },
+  "keywords": [
+    "christian",
+    "content",
+    "blog",
+    "video",
+    "api"
+  ],
+  "author": "",
+  "license": "ISC"
+}
