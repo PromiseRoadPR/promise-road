@@ -3,12 +3,7 @@
   "version": "1.0.0",
   "description": "Backend API for Promise Road Christian content creation platform",
   "main": "dist/index.js",
-    "scripts": {
-  "dev": "next dev",
-  "build": "next build",
-  "start": "next start"
-}
-
+  "scripts": {
     "start": "node dist/index.js",
     "dev": "ts-node src/index.ts",
     "build": "tsc",
